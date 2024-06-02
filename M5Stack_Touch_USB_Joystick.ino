@@ -47,7 +47,7 @@
 #define M5Device CoreS3
 #define M5_BRIGHTNESS (75)
 #define M5_BUTTON (0)
-#elif defined(ARDUINO_STAMP_S3)
+#elif defined(ARDUINO_STAMP_S3) || defined(ARDUINO_M5STACK_DIAL)
 #include <M5Dial.h>
 #define M5Device M5Dial
 #define M5_BRIGHTNESS (10)

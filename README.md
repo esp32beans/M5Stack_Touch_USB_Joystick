@@ -15,6 +15,7 @@ Tested using Arduino IDE 1.8.19 and [M5Stack Dial](https://docs.m5stack.com/en/c
 
 Install the following libraries using the Arduino IDE Library Manager.
 
+* "M5CoreS3" by M5Stack
 * "M5Dial" by M5Stack
 * "M5Unified" by M5Stack
 * "M5GFX" by M5Stack
@@ -29,6 +30,11 @@ Note the Board type is STAMP-S3. There is no M5Stack Dial option but the
 Dial is built around a Stamp-S3 board.
 
 ![Arduino IDE 1.8.19 build options](./images/M5Dial_build_options.jpg)
+
+Espressif released arduino-esp32 v 3.0.0. V3 has the M5Dial Board type so use
+it.
+
+![Arduino IDE 1.8.19 build options v3.0.0](./images/M5Dial_build_options_v3.jpg)
 
 To get the Dial into bootload mode, press and hold the BTN0 button at the
 middle of the Dial then press and release the RESET button on the right side.
